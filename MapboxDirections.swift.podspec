@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.name         = "CMRMapboxDirections.swift"
+  s.name         = "MapboxDirections.swift"
   s.version      = "0.26.0"
   s.summary      = "Mapbox Directions API wrapper for Swift and Objective-C."
 
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.requires_arc = true
-  s.module_name = "CMRMapboxDirections"
+  s.module_name = "MapboxDirections"
   s.swift_version = "4.0"
 
   s.dependency "Polyline", "~> 4.2"
