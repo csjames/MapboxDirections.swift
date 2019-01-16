@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.requires_arc = true
-  s.module_name = "MapboxDirections"
+  s.module_name = "CMRMapboxDirections"
   s.swift_version = "4.0"
 
   s.dependency "Polyline", "~> 4.2"
